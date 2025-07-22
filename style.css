@@ -1,0 +1,904 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #061b46;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.language-dropdown {
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.accessibility button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 2px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.btn-outline {
+    padding: 5px 12px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-filled {
+    padding: 5px 14px;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.centre header {
+    gap: 20px
+}
+.vote-banner {
+    background-color: #0e2a55;  
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+}
+.mainbanner {
+    width: 100%;
+    height: 400px; /* Use fixed height */
+    background-color: #061b46;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+  }
+#title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181961;
+    position:relative;
+    padding-left: 5%;
+    padding-bottom: 20px;
+}
+#button{
+    position:relative;
+    left: 6%;
+    height:8%;
+    width:15%;
+    border-radius: 10px;
+    background-color: #FF1D1D;
+    border-style: solid;
+    color: white;
+    padding: 4px 4px 4px 4px;
+}
+
+  /* 
+this code will repeat 6 times
+after every time i write repeat for your better understanding
+at last i write end  
+ */
+
+body {
+    margin: 0;
+    background-color: #0A4F9E;
+  }
+  
+  .container {
+    width: 83%;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .row1 {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left:0.5% ;
+    margin-right:0.5% ;
+    border-radius: 8px;
+  }
+  
+  .header {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .rank {
+    flex: 0.5;
+  }
+  
+  .details {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .symbol img {
+    height: 50px;
+  }
+  
+  .photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .info {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .medal {
+    height: 32px;
+  }
+
+  /* 
+this code will repeat 6 times
+every repeat == 1 row 
+
+after every time i write repeat for your better understanding
+at last i write end  
+ */
+
+  
+  .row2 {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px; 
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left:1% ;
+    margin-right:1% ;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .rank {
+    flex: 0.5;
+  }
+  
+  .details {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .symbol img {
+    height: 50px;
+  }
+  
+  .photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .info {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .medal {
+    height: 32px;
+  }
+
+/* repeat */
+
+  .row3 {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left:1.5% ;
+    margin-right:1.5% ;
+  }
+  
+  .header {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .rank {
+    flex: 0.5;
+  }
+  
+  .details {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .symbol img {
+    height: 50px;
+  }
+  
+  .photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .info {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .medal {
+    height: 32px;
+  }
+
+/* repeat */
+
+
+  .row4 {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left:2% ;
+    margin-right:2% ;
+    border-radius: 8px;
+  }
+  
+  .header {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .rank {
+    flex: 0.5;
+  }
+  
+  .details {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .symbol img {
+    height: 50px;
+  }
+  
+  .photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .info {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .medal {
+    height: 32px;
+  }
+
+
+/* repeat */
+ 
+  .row5 {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left:2.5% ;
+    margin-right:2.5% ;
+  }
+  
+  .header {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .rank {
+    flex: 0.5;
+  }
+  
+  .details {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .symbol img {
+    height: 50px;
+  }
+  
+  .photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .info {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .medal {
+    height: 32px;
+  }
+  
+/* repeat */
+ 
+
+  .row6 {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left:3% ;
+    margin-right:3% ;
+  }
+  
+  .header {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .rank {
+    flex: 0.5;
+  }
+  
+  .details {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .symbol img {
+    height: 50px;
+  }
+  
+  .photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .info {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .medal {
+    height: 32px;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid #999;
+    margin: 30px 30px 30px;
+  }
+
+  /* vcdjhcb */
+
+
+.dashboard-container{
+    position: relative;
+height:700px;
+width: 30%;
+}
+
+  
+  .card1 {
+    background-color: #5a88b5;
+    padding: 24px 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 400px;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    height: 296px;
+    width: 500px;
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .card-content1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic1 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .info1 {
+    text-align: left;
+  }
+  
+  .info1 p {
+    margin: 5px 0;
+  }
+  
+  .info1span {
+    font-weight: bold;
+  }
+  
+  .update-btn1 {
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    width:160px;
+    
+  }
+  
+  .update-btn1:hover {
+    background-color: #444;
+  }
+
+
+  /*repeat*/
+   
+  .card2 {
+    background-color: #5a88b5;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 400px;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    height: 296px;
+    width: 500px;
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .card-content2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic2 {
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .info2 {
+    text-align: left;
+  }
+  
+  .info2 p {
+    margin: 5px 0;
+  }
+  
+  .info2span {
+    font-weight: bold;
+  }
+  
+  .update-btn2 {
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    width:160px;
+  }
+  
+  .update-btn2:hover {
+    background-color: #444;
+  }
+
+
+/*repeat*/
+   
+.card3 {
+    background-color: #5a88b5;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 400px;
+    position: absolute;
+    left: 175%;
+    height: 296px;
+    width: 500px;
+    top:5%;
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .card-content3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic3 {
+    width: 150px;
+    height: 110px;
+    
+    border-radius: 10px;
+  }
+  
+  .info3 {
+    text-align: left;
+  }
+  
+  .info3 p {
+    margin: 5px 0;
+  }
+  
+  .info3span {
+    font-weight: bold;
+  }
+  
+  .update-btn3 {
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    width:160px;
+  }
+  
+  .update-btn3:hover {
+    background-color: #444;
+  }
+
+
+
+/*repeat*/
+   
+.card4 {
+    background-color: #5a88b5;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 400px;
+    position: absolute;
+    left: 175%;
+    height: 296px;
+    width: 500px;
+    top:57.3%;
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .card-content4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic4 {
+    width: 130px;
+    height: 110px;
+
+    border-radius: 10px;
+  }
+  
+  .info4 {
+    text-align: left;
+  }
+  
+  .info4 p {
+    margin: 5px 0;
+  }
+  
+  .info4span {
+    font-weight: bold;
+  }
+  
+  .update-btn4 {
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    width:160px;
+  }
+  
+  .update-btn4:hover {
+    background-color: #444;
+  }
+
+
+
+
+
+
+  .faq-container {
+    width: 80%;
+    max-width: 75%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .faq-title {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .faq-item {
+    background-color: #dcdcdc;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-answer {
+    display: none;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-top: 1px solid #aaa;
+    background-color: #eee;
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+  
+  .faq-item.active .arrow {
+    transform: rotate(180deg);
+  }
+
+
+
+
+
+
+
+
+
+  .footer {
+    background-color: #154a85;
+    padding: 30px 20px;
+    color: white;
+    height: 28vh;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    gap: 30px;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 140px;
+    font-size: 14px;
+  }
+  
+  .footer-column a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-column a:hover {
+    color: #ccc;
+  }
+  
+  .logofooter {
+    width: 70px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .tagline {
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  
+  .social {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+  }
+  
+  .social i {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
